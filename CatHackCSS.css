@@ -1,0 +1,24 @@
+div{ font-size: 50px;
+
+}
+
+.cat{ font-size: 20px;
+
+}
+
+#cat{ font-size: 30px;
+
+}
+
+.text{; height: 100%; width: 100%; border-radius: 100px; text-align: center;
+
+overflow: hidden;
+}
+
+.image{ width: 100%
+
+}
+
+.cursor{
+cursor: url('cat.gif'),auto;
+}
