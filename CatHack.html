@@ -3,16 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <title>Cat in the Hack</title>
-<link rel="stylesheet" type="text/css" href="CatHackCSS.css">
+<link rel="stylesheet" type="text/css" href="cathack.css">
 <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 
+<ul class="topNav" id="myTopNav">
+	<li><a href="CatHack.html">Home</a></li>
+  <li><a href="Play.html">Play</a></li>
+  <li><a href="About.html">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
 <div><img src="cat.gif" height="50" weight="50" alt="cat"></div>
 <!--<span></span><table></table>id is more important than the class -->
 
-<div class="text"><marquee><h1><i>Cat in the Hack</i></h1>
-<img src="boxcat.gif" alt="cat" height="200" weight="100"></marquee></div>
+<div class="text">
+	<marquee><h1><i>Cat in the Hack</i></h1>
+	<video width="640" height="480" autoplay controls loop>
+  		<source src="catkeyboard.mp4" type="video/mp4"></source>
+	</video>
+    </marquee>
+ </div>
 
 	<img class="follow" src="cat2.gif" alt="cat1">
 	<img class="follow" src="cat1.gif" alt="cat2">
