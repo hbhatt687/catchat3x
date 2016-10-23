@@ -12,7 +12,7 @@ div{ font-size: 50px;
 
 .text{; height: 100%; width: 100%; border-radius: 100px; text-align: center;
 
-overflow: hidden; animation: marquee 50s linear infinite;
+overflow: hidden;
 }
 
 .image{ width: 100%
@@ -22,3 +22,14 @@ overflow: hidden; animation: marquee 50s linear infinite;
 body{
 cursor: url('catt.png'),pointer;
 }
+
+/* Update 7:58PM by Hsia */
+body{ background-image: url("cat1.gif); background-size:100%;
+  }
+
+.follow{ position: relative; 
+}
+
+#first{ position: absolute;
+}
+/* end update by Hsia */
