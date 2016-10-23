@@ -2,6 +2,19 @@ div{ font-size: 50px;
 
 }
 
+body{
+	cursor: url('catt.png'),pointer;
+	background-image: url("cat1.gif"); background-size:100%;
+}
+
+.box {
+    width: 90%;
+	height: 400px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+}
+
 .cat{ font-size: 20px;
 
 }
@@ -10,26 +23,45 @@ div{ font-size: 50px;
 
 }
 
+.image{ width: 100%
+
+}
+
 .text{; height: 100%; width: 100%; border-radius: 100px; text-align: center;
 
 overflow: hidden;
 }
 
-.image{ width: 100%
-
+/*Remove margins and paddings from the list, and add black background color*/
+ul.topNav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
 }
 
-body{
-cursor: url('catt.png'),pointer;
+/*Float the list items side by side*/
+ul.topNav li {
+	float: left;
+	margin-left: 200px;
+	align-content: center;
+	}
+
+/* Style the links inside the list items */
+ul.topNav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
 }
 
-/* Update 7:58PM by Hsia */
-body{ background-image: url("cat1.gif); background-size:100%;
-  }
+/*change background color of links on hover*/
+ul.topNav li a:hover {background-color: #555;}
 
-.follow{ position: relative; 
-}
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
 
-#first{ position: absolute;
-}
-/* end update by Hsia */
